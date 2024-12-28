@@ -55,6 +55,7 @@ API_AVAILABLE(macos(10.11)){
         case CNAuthorizationStatusNotDetermined:
             return MPAuthorizationStatusNotDetermined;
     }
+    return MPAuthorizationStatusDenied;
 }
 
 @end
